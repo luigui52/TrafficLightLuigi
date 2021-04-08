@@ -1,5 +1,35 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+#trafficTop{
+    background-color:black;
+    width:10px;
+    height:70px;
+    margin-left:120px;
+}
+
+#container{
+    background-color:black;
+    width:120px;
+    height:360px;
+    margin-left:60px;
+    padding:7px;
+    border-radius:8px;
+}
+
+.light{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 40%;
+    padding: 4px;
+    cursor: pointer;
+    &.red{background-color: #990000;}
+    &.yellow{background-color: #CC6600;}
+    &.green{background-color: #009933;}
+    &.selected{box-shadow: #f844cc 0px 0px 50px 20px;}
+}
+
+
 /* 
 
     You can write your own styles here...
